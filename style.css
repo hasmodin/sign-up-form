@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+span {
+ text-align: center;
+ margin-top: 25px;
+}
+
+h1 {
+    padding: 10px 0;
+}
+
+
+form {
+    padding: 50px;
+    border: 1px soldi black;
+    box-shadow: 2px 2px 8px black;
+    margin: 25px;
+    border-radius: 5px;
+}
+input[type=email], input[type=password] {
+    padding: 15px;
+    width: 100%;
+    border-radius: 0.4rem;
+    margin: 10px 0 22px 0;
+    outline: none;
+    border: none;
+    background-color: rgba(223, 217, 211, 0.959);
+
+}
+
+#term {
+    margin: 10px 0 10px 0; 
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 25px 0 0;
+    background-color: rgb(24, 92, 24);
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 8px black;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+button:hover {
+    background-color: green;
+    box-shadow: 4px 4px 8px black;
+}
+
+.cancelbtn {
+  background-color: rgb(243, 58, 58);
+ 
+}
+
+.cancelbtn:hover {
+    background-color: red;
+}
+
+
+input[type=email]:focus, input[type=password]:focus {
+    background-color: #a6b3dd;
+    outline: none;
+}
+
